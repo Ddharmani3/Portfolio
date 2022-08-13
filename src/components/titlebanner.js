@@ -1,7 +1,14 @@
 import React from 'react'
 
-export default function titlebanner(/* props */) {
+function titlebanner() {
   return (
-    <div>titlebanner</div>
+    <div className="tcont">
+        <h1 className="hi">Hi, I'm</h1>
+       <h1 className="name">Hardik Dharmani </h1>
+        <h1 className="desc"> Full Stack Developer </h1>
+        
+    </div>
   )
 }
+
+export default titlebanner

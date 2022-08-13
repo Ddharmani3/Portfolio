@@ -19,7 +19,7 @@ function navbar() {
 
              <ul className='social'>
                 <li><a className='soclogos' target="_blank" href="https://github.com/Ddharmani3"> <Github/> </a></li>
-                <li><a className='soclogos' target="_blank" href="https://www.linkedin.com/in/hardik-dharmani-001230228/"> <Linkedin/> </a></li>
+                <li><a className='soclogos' target="_blank" href="https://www.linkedin.com/in/hardik-dharmani-001230228"> <Linkedin/> </a></li>
                 <li><a className='soclogos' target="_blank" href="https://www.instagram.com/ddharmani3/"> <Insta/></a></li>
              </ul>
             </nav>
