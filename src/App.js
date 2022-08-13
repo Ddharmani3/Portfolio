@@ -13,8 +13,6 @@ function App() {
     <div>
       <Navbar />
       <BrowserRouter>
-
-      {console.log(window.pageYOffset)}
         <div id="home">
           <TitleBanner />
 

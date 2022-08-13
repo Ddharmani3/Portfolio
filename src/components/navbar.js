@@ -2,9 +2,9 @@ import React from 'react'
 import Insta from './Svgs/insta'
 import Github from './Svgs/github'
 import Linkedin from './Svgs/linkedin'
-// import {HashLink} from 'react-router-dom'
+// import {NavHashLink} from 'react-router-dom'
 import { BrowserRouter/* ,Route,Routes */ } from 'react-router-dom';
-import { HashLink } from 'react-router-hash-link';
+import { NavHashLink } from 'react-router-hash-link';
 
 function navbar() {
     return (
@@ -24,11 +24,11 @@ function navbar() {
                 <BrowserRouter>
                 <ul className='navul'>
                     
-                    <li className='navli'> <HashLink smooth exact to="#home" className="navroute"> Home </HashLink> </li>
-                    <li className='navli'> <HashLink smooth exact to="#about" className="navroute"> About </HashLink> </li>
-                    <li className='navli'> <HashLink smooth exact to="#skills" className="navroute"> Skills </HashLink> </li>
-                    <li className='navli'> <HashLink smooth exact to="#projects" className="navroute"> Projects </HashLink> </li>
-                    <li className='navli'> <HashLink smooth exact to="#contact" className="navroute"> Contact </HashLink> </li>
+                    <li className='navli'> <NavHashLink smooth activeClassName='actroute' location={{pathname: document.location.pathname + document.location.hash}} exact to="#home" className="navroute"> Home </NavHashLink> </li>
+                    <li className='navli'> <NavHashLink smooth  exact to="#about" className="navroute"> About </NavHashLink> </li>
+                    <li className='navli'> <NavHashLink smooth  exact to="#skills" className="navroute"> Skills </NavHashLink> </li>
+                    <li className='navli'> <NavHashLink smooth  exact to="#projects" className="navroute"> Projects </NavHashLink> </li>
+                    <li className='navli'> <NavHashLink smooth  exact to="#contact" className="navroute"> Contact </NavHashLink> </li>
                 </ul>
                 </BrowserRouter>
 

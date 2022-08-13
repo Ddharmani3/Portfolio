@@ -45,19 +45,26 @@ code {
 
 
 .navul{
-  margin-left: 50px;
+  margin-left: 60px;
   display: flex;
   flex-direction: row;
+  gap: 10px;
 }
 .navli{
   margin: auto 10px;
   font-size: large;
- text-decoration: none;
- list-style: none;
- cursor: pointer;
+  list-style: none;
+  cursor: pointer;
 }
 
+.navroute{
+  text-decoration: none;
+  color: azure;
 
+}
+.actroute{
+  color: #e83e8c;
+}
 
 .social{
   display: flex;
@@ -76,6 +83,7 @@ code {
 .banner{
   overflow: hidden;
   padding: 30px;
+  
   background-color: black;
   width: 100%;
   height: 100vh;
@@ -85,11 +93,14 @@ code {
 }
 .logoban{
 
-  margin-top: 30px;
+  margin-top: 11vh;
   margin-right: 100px;
   transition: .5s;
   transform: rotate(20deg);
   
+}
+.tcont{
+  margin-top: 10vh;
 }
 
 .hi{
