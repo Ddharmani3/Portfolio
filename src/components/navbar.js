@@ -1,5 +1,5 @@
 import React from 'react'
-import Insta from './insta'
+import Insta from './Svgs/insta'
 
 function navbar() {
     return (
