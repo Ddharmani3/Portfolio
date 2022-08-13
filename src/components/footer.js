@@ -20,7 +20,7 @@ function footer() {
             <li className='socioli'> <a rel="noreferrer"  target="_blank" href="https://www.linkedin.com/in/hardik-dharmani-001230228"> <img width={"24px"} src="linkedinlogo.png" alt="" /> Linkedin </a> </li>
             <li className='socioli'> <a href="https://github.com/Ddharmani3" rel="noreferrer" target="_blank"  > <img width={"24px"} src="githublogo.png" alt="" />Github </a> </li>
             <li className='socioli'> <a rel="noreferrer"  target="_blank" href="https://www.instagram.com/ddharmani3/"> <img width={"24px"} src="instalogo.png" alt="" /> Instagram </a> </li>
-            <li className='socioli'> <a rel="noreferrer" target="_blank" href="ddharmani99@gmail.com"> <img width={"24px"} src="gmaillogo.png" alt="" /> Gmail </a> </li>
+            <li className='socioli'> <a rel="noreferrer" target="_blank" href="mailto:ddharmani99@gmail.com"> <img width={"24px"} src="gmaillogo.png" alt="" /> Gmail </a> </li>
           </ul>
         </div>
     

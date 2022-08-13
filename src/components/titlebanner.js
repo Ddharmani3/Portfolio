@@ -7,7 +7,7 @@ function titlebanner() {
   return (
    <div className="banner">
 
-    <div className="tcont">
+    <div className="tcont" id=''>
         <h1 className="hi">Hi, I'm</h1>
        <h1 className="name">Hardik Dharmani </h1>
        <div className="anitext">

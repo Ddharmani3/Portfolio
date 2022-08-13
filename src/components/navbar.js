@@ -2,6 +2,9 @@ import React from 'react'
 import Insta from './Svgs/insta'
 import Github from './Svgs/github'
 import Linkedin from './Svgs/linkedin'
+// import {HashLink} from 'react-router-dom'
+import { BrowserRouter/* ,Route,Routes */ } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 function navbar() {
     return (
@@ -10,21 +13,24 @@ function navbar() {
         <img src="/dlogo.png"className='logo' alt="logo" />
                 
                 
-                <ul className='navul'>
+                {/* <ul className='navul'>
                     <li className='navli'>Home</li>
                     <li className='navli'>About</li>
                     <li className='navli'>Skills</li>
                     <li className='navli'>Projects</li>
                     <li className='navli'>Contact</li>
-                </ul>
-
-                {/* <ul className='navul'>
-                    <li className='navli'> <NavLink exact to="/" className="navroute"> Home </NavLink> </li>
-                    <li className='navli'> <NavLink exact to="/about" className="navroute"> About </NavLink> </li>
-                    <li className='navli'> <NavLink exact to="/skills" className="navroute"> Skills </NavLink> </li>
-                    <li className='navli'> <NavLink exact to="/projects" className="navroute"> Projects </NavLink> </li>
-                    <li className='navli'> <NavLink exact to="/contact" className="navroute"> Contact </NavLink> </li>
                 </ul> */}
+
+                <BrowserRouter>
+                <ul className='navul'>
+                    
+                    <li className='navli'> <HashLink smooth exact to="#home" className="navroute"> Home </HashLink> </li>
+                    <li className='navli'> <HashLink smooth exact to="#about" className="navroute"> About </HashLink> </li>
+                    <li className='navli'> <HashLink smooth exact to="#skills" className="navroute"> Skills </HashLink> </li>
+                    <li className='navli'> <HashLink smooth exact to="#projects" className="navroute"> Projects </HashLink> </li>
+                    <li className='navli'> <HashLink smooth exact to="#contact" className="navroute"> Contact </HashLink> </li>
+                </ul>
+                </BrowserRouter>
 
              <ul className='social'>
                 <li><a className='soclogos' rel="noreferrer" target="_blank" href="https://github.com/Ddharmani3"> <Github color="white"/> </a></li>
