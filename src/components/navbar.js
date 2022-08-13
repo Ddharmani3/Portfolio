@@ -7,8 +7,8 @@ function navbar() {
     return (
         <div className='cont'>
             <nav className='navbar'>
+        <img src="/dlogo.png"className='logo' alt="logo" />
                 
-                {/* <img src="" alt="logo" className='logo' /> */}
                 
                 <ul className='navul'>
                     <li className='navli'>Home</li>
