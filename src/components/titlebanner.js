@@ -1,4 +1,5 @@
 import React from 'react'
+import Dlogo from './Svgs/dlogo'
 
 function titlebanner() {
   
@@ -17,7 +18,7 @@ function titlebanner() {
         
     </div>
        <div className="logoban">
-        <img src="dlogo.png" height={"550px"}  alt="" />
+         <Dlogo/>
        </div>
    </div>
   )
