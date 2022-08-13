@@ -25,7 +25,7 @@ code {
   height: 30px;
   position: absolute;
   top: 20px;
-  left: 25px;
+  left: 35px;
   
 }
 
@@ -201,17 +201,18 @@ code {
 }
 
 .projlist{
+  cursor: pointer;
   display: flex;
   margin-top: 10px;
   flex-direction: column;
-  gap: 5px;
+  gap: 8px;
   font-size: 15px;
-  margin-left: 5px;
+  margin-left: 9px;
   list-style: none;
 }
 .soclist{
   display: flex;
-  margin-top: 10px;
+  margin-top: 7px;
   flex-direction: column;
   gap: 5px;
   font-size: 15px;
@@ -237,7 +238,54 @@ code {
  opacity: 50%;
 }
 
+.gitsource{
+  cursor: pointer;
+  margin-top: 70px;
+ display: flex;
+ gap: 5px;
+ align-items: center;
+ border: 2px rgb(0 199 255) solid;
+ border-radius: 10px;
+ color: rgb(0 199 255);
+ padding: 5px;
+ height: 50px;
+ 
+}
+
 .love{
   color: azure;
-  margin-top: 50px;
+  margin-top: 45px;
+}
+
+.trails{
+  position: absolute;
+}
+#trail1{
+  right: 330px;
+  top: 50px;
+  rotate: -45deg;
+}
+#trail2{
+  right: -450px;
+  transform: scaleX(-1);
+  top: 50px;
+  rotate: 45deg;
+}
+#trail3{
+  right: 330px;
+  top: 250px;
+  rotate: -80deg;
+}
+#trail4{
+  right: -450px;
+  transform: scaleX(-1);
+  top: 250px;
+  rotate: 90deg;
+}
+#trail5{
+  right: -100px;
+  transform: scaleY(-1);
+  transform: scaleX(-1);
+  top: 375px;
+  rotate: 120deg;
 }

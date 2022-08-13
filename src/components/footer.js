@@ -7,7 +7,7 @@ function footer() {
       <div className="line"></div>
       <div className="fcontent">
         <div className="fproj">
-            <h2>Projects</h2>
+            <h2 style={{"color":"rgb(0 199 255)"}}>Projects</h2>
           <ul className='projlist'>
             <li>Portfolio</li>
             <li>News App</li>
@@ -15,17 +15,17 @@ function footer() {
           </ul>
         </div>
         <div className="fsocial">
-            <h2 style={{"marginLeft":"10px"}}>Connect</h2>
+            <h2 style={{"marginLeft":"-1px","color":"rgb(0 199 255)"}}>Connect</h2>
           <ul className='soclist'>
-            <li className='socioli'> <a rel="noreferrer"  target="_blank" href="https://www.linkedin.com/in/hardik-dharmani-001230228"> <img width={"32px"} src="linkedinlogo.png" alt="" /> Linkedin </a> </li>
-            <li className='socioli'> <a href="https://github.com/Ddharmani3" rel="noreferrer" target="_blank"  > <img width={"32px"} src="githublogo.png" alt="" />Github </a> </li>
-            <li className='socioli'> <a rel="noreferrer"  target="_blank" href="https://www.instagram.com/ddharmani3/"> <img width={"32px"} src="instalogo.png" alt="" /> Instagram </a> </li>
-            <li className='socioli'> <a rel="noreferrer" target="_blank" href="ddharmani99@gmail.com"> <img width={"30px"} src="gmaillogo.png" alt="" /> Gmail </a> </li>
+            <li className='socioli'> <a rel="noreferrer"  target="_blank" href="https://www.linkedin.com/in/hardik-dharmani-001230228"> <img width={"24px"} src="linkedinlogo.png" alt="" /> Linkedin </a> </li>
+            <li className='socioli'> <a href="https://github.com/Ddharmani3" rel="noreferrer" target="_blank"  > <img width={"24px"} src="githublogo.png" alt="" />Github </a> </li>
+            <li className='socioli'> <a rel="noreferrer"  target="_blank" href="https://www.instagram.com/ddharmani3/"> <img width={"24px"} src="instalogo.png" alt="" /> Instagram </a> </li>
+            <li className='socioli'> <a rel="noreferrer" target="_blank" href="ddharmani99@gmail.com"> <img width={"24px"} src="gmaillogo.png" alt="" /> Gmail </a> </li>
           </ul>
         </div>
-        <div className="source">
-          <div className="gitsource"> <Github/> <h3>View Source Code</h3></div>
-        </div>
+    
+          <div className="gitsource"> <Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></div>
+        
         
       </div>
       <div className="love">

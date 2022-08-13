@@ -4,6 +4,8 @@ import TitleBanner from './components/titlebanner';
 import Skills from './components/skills';
 import About from './components/about';
 import Footer from './components/footer';
+import Project from './components/project';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <TitleBanner/>
       <About/>
       <Skills/>
+      <Project/>
+      <Contact/>
       <Footer/>
     </div>
   );

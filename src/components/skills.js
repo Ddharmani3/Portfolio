@@ -9,10 +9,15 @@ function skills() {
     Aos.init();
   return (
     <div className="skills">
-        <div></div>
-        <div data-scroll="true" data-scroll-speed="2" data-scroll-delay="1" data-aos="slide-right" className="skilltext">
+        <div className='trails'>
+                <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-left" id="trail1"><img src="trail.png" alt="" /></div>
+                <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-right" id="trail2"><img src="trail.png" alt="" /></div>
+                <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-left" id="trail3"><img src="trail.png" alt="" /></div>
+                <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-right" id="trail4"><img src="trail.png" alt="" /></div>
+                <div className='trails'  data-aos="zoom-in-down" id="trail5"><img src="trail.png" alt="" /></div>
+        </div>
+        <div data-scroll="true" data-scroll-speed="2" data-scroll-delay="1" data-aos="slide-up" className="skilltext">
             <p className='skillth1'>Skills</p>
-            
         </div>
         <div className="iconb">
             <Icons/>
