@@ -4,6 +4,8 @@ function titlebanner() {
   
 
   return (
+   <div className="banner">
+
     <div className="tcont">
         <h1 className="hi">Hi, I'm</h1>
        <h1 className="name">Hardik Dharmani </h1>
@@ -14,6 +16,10 @@ function titlebanner() {
        </div>
         
     </div>
+       <div className="logoban">
+        <img src="dlogo.png" height={"550px"}  alt="" />
+       </div>
+   </div>
   )
 }
 

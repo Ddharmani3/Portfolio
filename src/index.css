@@ -5,7 +5,9 @@
   
 }
 body {
+  overflow-x: hidden;
   margin: 0%;
+  width: 100vw;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -23,6 +25,7 @@ code {
   height: 30px;
   position: absolute;
   top: 20px;
+  left: 25px;
   
 }
 
@@ -66,12 +69,24 @@ code {
     bottom: 5px;
 }
 
-.tcont{
+
+.banner{
+  overflow: hidden;
   padding: 30px;
   background-color: black;
   width: 100%;
   height: 90vh;
-  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logoban{
+
+  margin-top: 30px;
+  margin-right: 50px;
+  transition: .5s;
+  transform: rotate(20deg);
+  
 }
 
 .hi{
@@ -146,6 +161,7 @@ code {
 }
 
 .svico{
+  cursor: pointer;
   transition: transform .3s;
   transition-timing-function: ease-in-out;
 }
