@@ -11,11 +11,11 @@ function skills() {
   return (
     <div className="skills">
         <div></div>
-        <div data-aos="slide-right" className="skilltext">
+        <div data-scroll="true" data-scroll-speed="2" data-scroll-delay="1" data-aos="slide-right" className="skilltext">
             <h1 className='skillth1'>Skills</h1>
             
         </div>
-        <div className="icons">
+        <div className="iconb">
             <Icons/>
         </div>
     </div>
