@@ -11,11 +11,11 @@ function skills() {
   return (
     <div className="skills">
         <div className='trails'>
-                <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-left" id="trail1"><img src="trail.png" alt="" /></div>
-                <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-right" id="trail2"><img src="trail.png" alt="" /></div>
-                <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-left" id="trail3"><img src="trail.png" alt="" /></div>
-                <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-right" id="trail4"><img src="trail.png" alt="" /></div>
-                <div className='trails'  data-aos="zoom-in-down" id="trail5"><img src="trail.png" alt="" /></div>
+                <div className='trails' data-aos-anchor="#trail4"  data-aos="zoom-in-left" id="trail1"><img src="trail.png" alt="" /></div>
+                <div className='trails' data-aos-anchor="#trail4"  data-aos="zoom-in-right" id="trail2"><img src="trail.png" alt="" /></div>
+                <div className='trails' data-aos-anchor="#trail4"  data-aos="zoom-in-left" id="trail3"><img src="trail.png" alt="" /></div>
+                <div className='trails' data-aos="zoom-in-right" id="trail4"><img src="trail.png" alt="" /></div>
+                <div className='trails' data-aos-anchor="#trail4" data-aos="zoom-in-down" id="trail5"><img src="trail.png" alt="" /></div>
         </div>
         <div  data-aos-delay="200" data-aos="fade-up" className="skilltext">
             <p className='skillth1'>Skills</p>
