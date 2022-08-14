@@ -24,7 +24,7 @@ function footer() {
           </ul>
         </div>
     
-          <div className="gitsource"> <Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></div>
+          <div > <a className="gitsource" href="https://github.com/Ddharmani3/Portfolio"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
         
         
       </div>
