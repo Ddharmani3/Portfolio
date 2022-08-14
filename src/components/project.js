@@ -8,16 +8,16 @@ function project() {
         <h1 className='projtit'>PROJECTS</h1>
         <div className="projlist">
 
-        <div className="proj">
-        <img src="proj1ss.png"id='proj2'  className="projimg" alt="proj1ss" />
+        <div className="proj" id='proj1'>
+        <img src="proj1ss.png"   className="projimg" alt="proj1ss" />
         <h3>Portfloio Website</h3>
         </div>
-        <div className="proj" id='proj2'>
-        <img src="projss.png"  className="projimg"  alt="proj1ss" />
+        <div className="proj" id='proj2' >
+        <img src="proj2ss.png"  className="projimg"  alt="proj2ss" />
         <h3>Chat App</h3>
         </div>
-        <div className="proj">
-        <img src="proj2ss.png"  className="projimg"  id='proj3' alt="proj1ss" />
+        <div className="proj" id='proj3'>
+        <img src="proj3ss.png"  className="projimg"   alt="proj3ss" />
         <h3>News WebApp</h3>
         </div>
         </div>
