@@ -46,7 +46,7 @@ function project() {
         <br /> It Has Signup and Login through firebase authentication.
         <br />
           It is Made with Flutter and Firebase. </p>
-          <div > <a className="gitsourcep" target="_blank" rel="noreferrer" href="https://github.com/Ddharmani3/Portfolio"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
+          <div > <a className="gitsourcep" target="_blank" rel="noreferrer" href="https://github.com/Ddharmani3/News-Monkey"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
         
         </div>
         </div>
