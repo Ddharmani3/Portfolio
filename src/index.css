@@ -275,23 +275,23 @@ code {
   position: absolute;
 }
 #trail1{
-  right: 330px;
+  right: 350px;
   top: 50px;
   rotate: -45deg;
 }
 #trail2{
-  right: -450px;
+  right: -470px;
   transform: scaleX(-1);
   top: 50px;
   rotate: 45deg;
 }
 #trail3{
-  right: 330px;
+  right: 350px;
   top: 250px;
   rotate: -80deg;
 }
 #trail4{
-  right: -450px;
+  right: -470px;
   transform: scaleX(-1);
   top: 250px;
   rotate: 90deg;
@@ -300,6 +300,6 @@ code {
   right: -100px;
   transform: scaleY(-1);
   transform: scaleX(-1);
-  top: 375px;
+  top: 400px;
   rotate: 120deg;
 }

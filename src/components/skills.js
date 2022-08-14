@@ -16,7 +16,7 @@ function skills() {
                 <div className='trails' data-aos-anchor="#trail5"  data-aos="zoom-in-right" id="trail4"><img src="trail.png" alt="" /></div>
                 <div className='trails'  data-aos="zoom-in-down" id="trail5"><img src="trail.png" alt="" /></div>
         </div>
-        <div data-scroll="true" data-scroll-speed="2" data-scroll-delay="1" data-aos="slide-up" className="skilltext">
+        <div  data-aos-delay="200" data-aos="fade-up" className="skilltext">
             <p className='skillth1'>Skills</p>
         </div>
         <div className="iconb">
