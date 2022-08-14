@@ -11,7 +11,7 @@ function navbar() {
         <div className='cont'>
             <BrowserRouter>
             <nav className='navbar'>
-            <NavHashLink smooth  exact to="#home"  className='logo'><img src="dlogo.png" alt="logo" />  </NavHashLink>
+            <NavHashLink smooth  exact to="#home"  className='logo'><img src="dlogo.png" height={"30px"} alt="logo" />  </NavHashLink>
     
 
                 <ul className='navul'>

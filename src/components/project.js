@@ -9,15 +9,15 @@ function project() {
         <div className="projlist">
 
         <div className="proj">
-        <img src="proj1ss.png"id='proj2' alt="proj1ss" />
+        <img src="proj1ss.png"id='proj2' width={"200px"} alt="proj1ss" />
         <h3>Portfloio Website</h3>
         </div>
         <div className="proj" id='proj2'>
-        <img src="proj1ss.png" alt="proj1ss" />
+        <img src="proj1ss.png" width={"200px"}  alt="proj1ss" />
         <h3>Chat App</h3>
         </div>
         <div className="proj">
-        <img src="proj1ss.png" id='proj3' alt="proj1ss" />
+        <img src="proj1ss.png" width={"200px"}  id='proj3' alt="proj1ss" />
         <h3>News WebApp</h3>
         </div>
         </div>
