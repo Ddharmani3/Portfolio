@@ -8,7 +8,7 @@ function footer() {
       <div className="fcontent">
         <div className="fproj">
             <h2 style={{"color":"rgb(0 199 255)"}}>Projects</h2>
-          <ul className='projlist'>
+          <ul className='projlistf'>
             <li>Portfolio</li>
             <li>News App</li>
             <li>Chat App</li>
