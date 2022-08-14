@@ -18,6 +18,10 @@ function project() {
         <br /> It Has Signup and Login through firebase authentication.
         <br />
           It is Made with Flutter and Firebase. </p>
+          <div className="projuicon">
+            <img src="Reactlogo.png" alt="f" />
+            <img src="css3.png" alt="" />
+          </div>
           <div > <a className="gitsourcep" target="_blank" rel="noreferrer" href="https://github.com/Ddharmani3/Portfolio"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
         
         </div>
@@ -33,6 +37,10 @@ function project() {
         <br /> It Has Signup and Login through firebase authentication.
         <br />
           It is Made with Flutter and Firebase. </p>
+          <div className="projuicon">
+            <img src="flutter.png" alt="f" />
+            <img src="firebase.png" alt="f" />
+          </div>
         </div>
         </div>
 
@@ -46,6 +54,10 @@ function project() {
         <br /> It Has Signup and Login through firebase authentication.
         <br />
           It is Made with Flutter and Firebase. </p>
+          <div className="projuicon">
+            <img src="Reactlogo.png" alt="" />
+            <img src="css3.png" alt="" />
+          </div>
           <div > <a className="gitsourcep" target="_blank" rel="noreferrer" href="https://github.com/Ddharmani3/News-Monkey"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
         
         </div>
