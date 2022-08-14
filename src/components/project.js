@@ -25,7 +25,7 @@ function project() {
 
 
         <div className="proj" id='proj2' >
-        <img src="proj2ss.png"  className="projimg" id='projimg2'  alt="proj2ss" />
+        <img src="proj2ss.png" id='projimg2'  alt="proj2ss" />
 
         <div className="projdesc">
         <h3>Chat App</h3>
