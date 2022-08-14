@@ -1,6 +1,5 @@
 import React from 'react'
 import './about.css'
-import { BrowserRouter/* ,Route,Routes */ } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 
 function about() {
