@@ -1,5 +1,6 @@
 .projects{
-    height: 100vh;
+    height: 150vh;
+	margin-top: 3vh;
     background-color: rgb(0 10 31);
     color: azure;
 }
@@ -40,6 +41,9 @@ body {
 	gap: 200px;
 }
 
+.projimg{
+	width: 350px;
+}
 .proj{
 	display: flex;
 	width: 100vw;
