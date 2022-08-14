@@ -5,9 +5,32 @@
     padding: 60px;
     display: flex;
     box-sizing: border-box;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    gap: 300px;
+    /* justify-content: space-evenly; */
     color: azure;
+  }
+  .gif{
+    align-self: center;
+    margin-left: 50px;
+    transition: .3s;
+    transform: scale(1.2);
+    border-radius: 50px;
   }
   .abouttxt{
     padding-right: 130px;
+  }
+
+  .abtp{
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 1.7;
+    letter-spacing: 1px;
+    font-family: Poppins,sans-serif;
+  }
+
+  .skilllink{
+    color: rgb(0 199 255);
+    cursor: pointer;
+    text-decoration: none;
   }
