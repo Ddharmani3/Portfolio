@@ -1,5 +1,6 @@
 import React from 'react'
 import './project.css'
+import Github from './Svgs/github'
 
 function project() {
   return (
@@ -17,6 +18,8 @@ function project() {
         <br /> It Has Signup and Login through firebase authentication.
         <br />
           It is Made with Flutter and Firebase. </p>
+          <div > <a className="gitsourcep" target="_blank" rel="noreferrer" href="https://github.com/Ddharmani3/Portfolio"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
+        
         </div>
         </div>
 
@@ -36,13 +39,15 @@ function project() {
 
         <div className="proj" id='proj3'>
         <img src="proj3ss.png"  className="projimg"   alt="proj3ss" />
-        
+
         <div className="projdesc">
         <h3>News WebApp</h3>
         <p className='projtext'> Chat App named Whatsup That has general Chat room.
         <br /> It Has Signup and Login through firebase authentication.
         <br />
           It is Made with Flutter and Firebase. </p>
+          <div > <a className="gitsourcep" target="_blank" rel="noreferrer" href="https://github.com/Ddharmani3/Portfolio"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
+        
         </div>
         </div>
         </div>

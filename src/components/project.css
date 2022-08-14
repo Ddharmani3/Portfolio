@@ -69,4 +69,28 @@
 	flex-direction: row-reverse;
 }
 
+.gitsourcep{
+	cursor: pointer;
+	text-decoration: none;
+	margin-top: 70px;
+   display: flex;
+   gap: 5px;
+   transition: .5s;
+   transition-timing-function: ease-in-out;
+   align-items: center;
+   border: 2px rgb(0 199 255) solid;
+   border-radius: 10px;
+   color: rgb(0 199 255);
+   padding: 5px;
+   height: 50px;
+   width: 211px;
+  align-self: center;
+  margin-left: 3px;
+   
+  }
+  .gitsourcep:hover{
+	transform: scale(1.1);
+  }
+  
+
 
