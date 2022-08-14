@@ -6,16 +6,19 @@ import About from './components/about';
 import Footer from './components/footer';
 import Project from './components/project';
 import Contact from './components/contact';
-import { BrowserRouter/* ,Route,Routes */ } from 'react-router-dom';
+import { BrowserRouter} from 'react-router-dom';
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
 function App() {
+  Aos.init();
   return (
-    <div data-aos="zoom-out"  data-aos-easing="ease-in-out">
+    <div >
       <Navbar />
+     
+
       <BrowserRouter>
-        <div id="home">
+        <div data-aos="zoom-out"  data-aos-easing="ease-in-out" id="home">
           <TitleBanner />
 
         </div>
@@ -35,7 +38,8 @@ function App() {
         </div>
         <Footer />
       </BrowserRouter>
-    </div>
+      </div>
+    
   );
 }
 

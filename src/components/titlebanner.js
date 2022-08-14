@@ -3,6 +3,7 @@ import Dlogo from './Svgs/dlogo'
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
+
 function titlebanner() {
   Aos.init();
 

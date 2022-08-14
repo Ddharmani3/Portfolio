@@ -27,9 +27,7 @@ function about() {
         <br /><br /><br />
         You can checkout my <NavHashLink smooth  exact to="#skills" className="skilllink"> Skills Here.</NavHashLink>
         <br />
-        <span>
-          <img src="darrow.png" style={{"marginLeft":"240px"}} width={"32px"} alt="" />
-          </span></p>
+        </p>
       </div>
     </div>
   )
