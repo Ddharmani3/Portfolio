@@ -1,9 +1,9 @@
 import React from 'react'
 
-function dlogo() {
+function dlogo(props) {
   return (
     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-    width="350px" viewBox="0 0 235 309" enable-background="new 0 0 235 309" xmlSpace="preserve">
+   width={props.width}  viewBox={props.view} enable-background="new 0 0 235 309" xmlSpace="preserve">
 <path fill="#F0F0F0" opacity="1.000000" stroke="none" 
    d="
 M1.000000,220.000000 
@@ -75,7 +75,7 @@ M1.000000,220.000000
 M3.317626,199.834183 
    C3.398426,199.778854 3.479226,199.723541 3.317626,199.834183 
 z"/>
-<path fill="#000000" opacity="1.000000" stroke="none" 
+<path  opacity="0" stroke="none" 
    d="
 M136.493927,78.798233 
    C136.493927,78.798233 136.836853,78.761436 136.940353,79.260315 

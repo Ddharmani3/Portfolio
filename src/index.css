@@ -59,7 +59,7 @@ code {
 
 .navroute{
   text-decoration: none;
-  color: azure;
+  color: rgb(0 199 255);
 
 }
 .actroute{
@@ -93,12 +93,21 @@ code {
 }
 .logoban{
 
-  margin-top: 11vh;
-  margin-right: 100px;
+  margin-top: 8vh;
+  margin-right: 130px;
+  position: relative;
+  right: 30px;
   transition: .5s;
   transform: rotate(20deg);
-  
 }
+.coder3{
+  position: relative;
+  left: 320px;
+  top: 0px;
+  rotate: -20deg;
+}
+
+
 .tcont{
   margin-top: 10vh;
 }
@@ -257,6 +266,8 @@ code {
   margin-top: 70px;
  display: flex;
  gap: 5px;
+ transition: .5s;
+ transition-timing-function: ease-in-out;
  align-items: center;
  border: 2px rgb(0 199 255) solid;
  border-radius: 10px;
@@ -264,6 +275,9 @@ code {
  padding: 5px;
  height: 50px;
  
+}
+.gitsource:hover{
+  transform: scale(1.1);
 }
 
 .love{
