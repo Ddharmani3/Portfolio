@@ -5,6 +5,7 @@
   
 }
 body {
+  background-color: black;
   overflow-x: hidden;
   margin: 0%;
   width: 100vw;
@@ -93,7 +94,7 @@ code {
 }
 .logoban{
 
-  margin-top: 8vh;
+  margin-top: 7vh;
   margin-right: 130px;
   position: relative;
   right: 30px;
@@ -103,7 +104,7 @@ code {
 .coder3{
   position: relative;
   left: 320px;
-  top: 0px;
+  top: 10px;
   rotate: -20deg;
 }
 
@@ -195,15 +196,7 @@ code {
   
 }
 
-.about{
-  background-color:  rgb(0 10 31);
-  width: 100%;
-  height: 100vh;
-  padding: 50px;
-  display: flex;
-  flex-direction: row-reverse;
-  color: azure;
-}
+
 
 .footer{
   height: 50vh;

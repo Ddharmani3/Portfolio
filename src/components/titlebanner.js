@@ -1,11 +1,13 @@
 import React from 'react'
 import Dlogo from './Svgs/dlogo'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 function titlebanner() {
-  
+  Aos.init();
 
   return (
-   <div className="banner">
+   <div  className="banner">
 
     <div className="tcont">
         <h1 className="hi">Hi, I'm</h1>
@@ -13,7 +15,7 @@ function titlebanner() {
        <div className="anitext">
 
         <h1 className="desc">
-          <span id='words'>Full Stack Developer </span> </h1>
+          <span id='words'>Full Stack Developer.</span> </h1>
        </div>
         
     </div>

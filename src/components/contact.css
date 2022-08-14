@@ -1,5 +1,60 @@
 .contact{
     height: 100vh;
+    padding: 40px 60px;
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     color: azure;
+}
+
+.form{
+    padding: 60px 5px;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+    color: azure;
+}
+.conimg{
+    position: relative;
+    bottom: 10px;
+    right: 50px;
+}
+
+.inputcontact{
+    color: White;
+    padding: 5px 7px;
+    width: 410px;
+    height: 37px;
+    background-color: transparent;
+    border: 2px solid gray;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.send{
+    background-color: rgb(0 199 255);
+    height: 37px;
+    width: 410px;
+    margin-top: 10px;
+    align-self: center;
+    transition: .3s;
+    border-radius: 5px;
+    cursor: pointer;
+    color: azure;
+    font-weight: bold;
+}
+
+.send:hover{
+    transform: scale(1.03);
+    background-color: #e83e8c;
+}
+
+#msgarea{
+    color: White;
+    padding: 5px 7px;
+    width: 410px;
+    background-color: transparent;
+    border: 2px solid gray;
+    opacity: 0.9;
+    border-radius: 5px;
+
 }
