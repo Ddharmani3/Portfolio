@@ -9,28 +9,19 @@ import { NavHashLink } from 'react-router-hash-link';
 function navbar() {
     return (
         <div className='cont'>
+            <BrowserRouter>
             <nav className='navbar'>
-        <img src="dlogo.png"className='logo' alt="logo" />
-                
-                
-                {/* <ul className='navul'>
-                    <li className='navli'>Home</li>
-                    <li className='navli'>About</li>
-                    <li className='navli'>Skills</li>
-                    <li className='navli'>Projects</li>
-                    <li className='navli'>Contact</li>
-                </ul> */}
+            <NavHashLink smooth  exact to="#home"  className='logo'><img src="dlogo.png" alt="logo" />  </NavHashLink>
+    
 
-                <BrowserRouter>
                 <ul className='navul'>
                     
-                    <li className='navli'> <NavHashLink smooth activeClassName='actroute' location={{pathname: document.location.pathname + document.location.hash}} exact to="#home" className="navroute"> Home </NavHashLink> </li>
+                    <li className='navli'> <NavHashLink smooth  exact to="#home" className="navroute"> Home </NavHashLink> </li>
                     <li className='navli'> <NavHashLink smooth  exact to="#about" className="navroute"> About </NavHashLink> </li>
                     <li className='navli'> <NavHashLink smooth  exact to="#skills" className="navroute"> Skills </NavHashLink> </li>
                     <li className='navli'> <NavHashLink smooth  exact to="#projects" className="navroute"> Projects </NavHashLink> </li>
                     <li className='navli'> <NavHashLink smooth  exact to="#contact" className="navroute"> Contact </NavHashLink> </li>
                 </ul>
-                </BrowserRouter>
 
              <ul className='social'>
                 <li><a className='soclogos' rel="noreferrer" target="_blank" href="https://github.com/Ddharmani3"> <Github color="white"/> </a></li>
@@ -38,6 +29,7 @@ function navbar() {
                 <li><a className='soclogos' rel="noreferrer" target="_blank" href="https://www.instagram.com/ddharmani3/"> <Insta/></a></li>
              </ul>
             </nav>
+                </BrowserRouter>
         </div>
     )
 }
