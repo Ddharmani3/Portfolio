@@ -10,7 +10,7 @@ function navbar() {
     return (
         <div className='cont'>
             <nav className='navbar'>
-        <img src="/dlogo.png"className='logo' alt="logo" />
+        <img src="dlogo.png"className='logo' alt="logo" />
                 
                 
                 {/* <ul className='navul'>
