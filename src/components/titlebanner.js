@@ -2,6 +2,7 @@ import React from 'react'
 import Dlogo from './Svgs/dlogo'
 import Aos from 'aos'
 import "aos/dist/aos.css"
+import './titlebanner.css'
 
 
 function titlebanner() {
@@ -12,7 +13,7 @@ function titlebanner() {
 
     <div className="tcont">
         <h1 className="hi">Hi, I'm</h1>
-       <h1 className="name">Hardik Dharmani </h1>
+       <h1 className="name">Hardik <span><img src="dlogo.png" width={"24px"} alt="dlogo" /></span>harmani </h1>
        <div className="anitext">
 
         <h1 className="desc">

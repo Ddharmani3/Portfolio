@@ -1,5 +1,6 @@
 import React from 'react'
 import Github from './Svgs/github'
+import "./footer.css"
 
 function footer() {
   return (

@@ -1,0 +1,56 @@
+
+.banner{
+    overflow: hidden;
+    padding: 30px;
+    
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .logoban{
+  
+    margin-top: 7vh;
+    margin-right: 130px;
+    position: relative;
+    right: 30px;
+    transition: .5s;
+    transform: rotate(20deg);
+  }
+  .coder3{
+    position: relative;
+    left: 320px;
+    top: 10px;
+    rotate: -20deg;
+  }
+  
+  
+  .tcont{
+    margin-top: 10vh;
+  }
+  
+  .hi{
+    color: azure;
+    position: relative;
+    top: 40px;
+    left: 60px;
+  }
+  
+  .name{
+    color: rgb(0 199 255);
+    position: relative;
+    font-size: 50px;
+    top: 40px;
+    left: 60px;
+  }
+  
+  .desc{
+    color: #e83e8c;
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+    left: 60px;
+  }
+  

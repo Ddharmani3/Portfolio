@@ -1,0 +1,95 @@
+
+.skills{
+    /* background-color: rgb(4, 43, 54); */
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 45px;
+    
+  }
+  
+  
+  .skillth1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #e83e8c;
+  }
+  .iconboxl1{
+    display: flex;
+    padding: 15px;
+    gap: 25px;
+  }
+  .icons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .iconboxl2{
+    display: flex;
+    padding: 15px;
+    gap: 25px;
+  }
+  
+  .icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90px;
+    height: 90px;
+  }
+  
+  .svico{
+    cursor: pointer;
+    transition: transform .3s;
+    transition-timing-function: ease-in-out;
+  
+  }
+  
+  .svico:hover{
+    transform: scale(1.2);
+    
+  }
+  
+  
+
+.trails{
+    position: absolute;
+  }
+  #trail1{
+    right: 350px;
+    top: 50px;
+    rotate: -45deg;
+  }
+  #trail2{
+    right: -470px;
+    transform: scaleX(-1);
+    top: 50px;
+    rotate: 45deg;
+  }
+  #trail3{
+    right: 350px;
+    top: 250px;
+    rotate: -80deg;
+  }
+  #trail4{
+    right: -470px;
+    transform: scaleX(-1);
+    top: 250px;
+    rotate: 90deg;
+  }
+  #trail5{
+    right: -100px;
+    transform: scaleY(-1);
+    transform: scaleX(-1);
+    top: 400px;
+    rotate: 120deg;
+  }
