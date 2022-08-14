@@ -1,5 +1,5 @@
 .projects{
-    height: 150vh;
+    height: 200vh;
     background-color: rgb(0 10 31);
     color: azure;
 }
@@ -41,7 +41,11 @@
 }
 
 .projimg{
-	width: 350px;
+	width: 500px;
+}
+
+#projimg2{
+	height: 300px;
 }
 
 .proj{
