@@ -57,6 +57,7 @@ function project() {
           <div className="projuicon">
             <img src="react.png" width={"36px"} alt="" />
             <img src="css3.png" width={"36px"} alt="" />
+            <img src="apilogo.png" width={"36px"} alt="" />
           </div>
           <div > <a className="gitsourcep" target="_blank" rel="noreferrer" href="https://github.com/Ddharmani3/News-Monkey"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
         
