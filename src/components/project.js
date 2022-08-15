@@ -51,7 +51,7 @@ function project() {
 
         <div className="projdesc">
         <h3>News WebApp</h3>
-        <p className='projtext'> News Mokey - A News Website that shows latest headlines in different categoories using News API.
+        <p className='projtext'> News Monkey - A News Website that shows latest headlines in different categoories using News API.
         It is Made With React and Newss API.
         <br />  </p>
           <div className="projuicon">
