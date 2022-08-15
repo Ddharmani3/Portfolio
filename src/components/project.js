@@ -13,7 +13,7 @@ function project() {
         <img src="proj1ss.png"   className="projimg" alt="proj1ss" />
 
         <div className="projdesc">
-        <h3>Portfloio Website</h3>
+        <h3>Portfolio Website</h3>
         <p className='projtext'> This is My Portfolio Website.
         <br />
         This shows all my Skills and Projects.
