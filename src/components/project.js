@@ -14,10 +14,11 @@ function project() {
 
         <div className="projdesc">
         <h3>Portfloio Website</h3>
-        <p className='projtext'> Chat App named Whatsup That has general Chat room.
-        <br /> It Has Signup and Login through firebase authentication.
+        <p className='projtext'> This is My Portfolio Website.
         <br />
-          It is Made with Flutter and Firebase. </p>
+        This shows all my Skills and Projects.
+        <br />
+          It is Made with React and CSS. </p>
           <div className="projuicon">
             <img src="react.png" width={"36px"}  alt="f" />
             <img src="css3.png" width={"36px"} alt="" />
@@ -50,10 +51,9 @@ function project() {
 
         <div className="projdesc">
         <h3>News WebApp</h3>
-        <p className='projtext'> Chat App named Whatsup That has general Chat room.
-        <br /> It Has Signup and Login through firebase authentication.
-        <br />
-          It is Made with Flutter and Firebase. </p>
+        <p className='projtext'> News Mokey - A News Website that shows latest headlines in different categoories using News API.
+        It is Made With React and Newss API.
+        <br />  </p>
           <div className="projuicon">
             <img src="react.png" width={"36px"} alt="" />
             <img src="css3.png" width={"36px"} alt="" />
