@@ -1,10 +1,10 @@
 
 .banner{
     overflow: hidden;
-    padding: 30px;
+    padding: 2vh;
     
     background-color: black;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: space-between;
@@ -13,16 +13,16 @@
   .logoban{
   
     margin-top: 7vh;
-    margin-right: 130px;
+    margin-right: 10vw;
     position: relative;
-    right: 30px;
+    right: 3%;
     transition: .5s;
     transform: rotate(20deg);
   }
   .coder3{
     position: relative;
-    left: 320px;
-    top: 10px;
+    left: 30vw;
+    top: 1vh;
     rotate: -20deg;
   }
   
@@ -34,23 +34,24 @@
   .hi{
     color: azure;
     position: relative;
-    top: 40px;
-    left: 60px;
+    top: 5vh;
+    left: 4vw;
+    font-size: 2vw;
   }
   
   .name{
     color: rgb(0 199 255);
     position: relative;
-    font-size: 50px;
-    top: 40px;
-    left: 60px;
+    font-size: 2.7vw;
+    top: 5vh;
+    left: 4vw;
   }
   
   .desc{
     color: #e83e8c;
-    font-size: 50px;
+    font-size: 3.5vw;
     position: relative;
-    top: 40px;
-    left: 60px;
+    top: 5vh;
+    left: 4vw;
   }
   
