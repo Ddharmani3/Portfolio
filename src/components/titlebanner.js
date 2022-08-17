@@ -13,7 +13,7 @@ function titlebanner() {
 
     <div className="tcont">
         <h1 className="hi">Hi, I'm</h1>
-       <h1 className="name">Hardik <span className='namelogo'><img src="dlogo.png" style={{"marginLeft":"5px"}} alt="dlogo" /></span>harmani </h1>
+       <h1 className="name">Hardik <span><img className='namelogo' src="dlogo.png"  alt="dlogo" /></span>harmani </h1>
        <div className="anitext">
 
         <h1 className="desc">
