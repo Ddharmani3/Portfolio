@@ -15,13 +15,14 @@
     margin-top: 7vh;
     margin-right: 10vw;
     position: relative;
-    right: 3%;
+    right: 3vw;
     transition: .5s;
     transform: rotate(20deg);
   }
   .coder3{
     position: relative;
-    left: 30vw;
+    left: 23vw;
+    width:28vw;
     top: 1vh;
     rotate: -20deg;
   }
