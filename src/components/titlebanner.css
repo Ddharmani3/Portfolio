@@ -26,6 +26,8 @@
     top: 1vh;
     rotate: -20deg;
   }
+
+  
   
   
   .tcont{
@@ -38,6 +40,10 @@
     top: 5vh;
     left: 4vw;
     font-size: 2vw;
+  }
+  
+  .namelogo{
+    width:3vw;
   }
   
   .name{
