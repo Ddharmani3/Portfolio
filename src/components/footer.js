@@ -1,6 +1,7 @@
 import React from 'react'
 import Github from './Svgs/github'
 import "./footer.css"
+import Resume from './Svgs/resume'
 
 function footer() {
   return (
@@ -25,7 +26,11 @@ function footer() {
           </ul>
         </div>
     
+    <div className="boxesgr">
+
           <div > <a className="gitsource" target="_blank" rel="noreferrer" href="https://github.com/Ddharmani3/Portfolio"><Github color="rgb(0 199 255)"/> <h3>View Source Code</h3></a></div>
+          <div > <a className="gitsource resgs" target="_blank" rel="noreferrer" href="https://drive.google.com/file/d/1X1mKFSg3mUZGsC13JVl-P53yizbkoGUk/view?usp=sharing"><Resume size="1.7rem"/> <h3>Resume</h3></a></div>
+    </div>
         
         
       </div>
