@@ -57,3 +57,23 @@
       bottom: 5px;
   }
   
+  .resume{
+    cursor: pointer;
+    text-decoration: none;
+   display: flex;
+   gap: 0.3rem;
+   transition: .5s;
+   transition-timing-function: ease-in-out;
+   align-items: center;
+   border: 2px rgb(0 199 255) solid;
+   border-radius: 10px;
+   color: rgb(0 199 255);
+   padding: 0.4rem;
+   height: 2rem;
+   margin-left: 0.3rem;
+   scale: 1.2;
+   
+  }
+  .resume:hover{
+    transform: scale(1.1);
+  }
