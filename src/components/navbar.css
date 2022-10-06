@@ -65,9 +65,9 @@
    transition: .5s;
    transition-timing-function: ease-in-out;
    align-items: center;
-   border: 2px rgb(0 199 255) solid;
+   border: 2px white solid;
    border-radius: 10px;
-   color: rgb(0 199 255);
+   color: white;
    padding: 0.4rem;
    height: 2rem;
    margin-left: 0.3rem;

@@ -9,7 +9,7 @@ function resume(props) {
 
 
 <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 420 420" width={props.size} fill="rgb(0 199 255)" xmlSpace="preserve">
+	 viewBox="0 0 420 420" width={props.size} fill={props.color} xmlSpace="preserve">
 <g>
 	<path d="M380.95,79.002c-0.024-0.243-0.066-0.481-0.107-0.719c-0.015-0.083-0.022-0.168-0.038-0.251
 		c-0.057-0.287-0.131-0.568-0.213-0.846c-0.01-0.033-0.016-0.067-0.025-0.099c-0.086-0.282-0.188-0.558-0.297-0.829
