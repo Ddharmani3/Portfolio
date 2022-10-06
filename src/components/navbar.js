@@ -9,10 +9,25 @@ import './navbar.css'
 import Resume from './Svgs/resume';
 
 function navbar() {
+    var lastScrollt=0;
+    var navbar=document.getElementById("snav");
+    window.addEventListener("scroll",function(){
+        var scrollt=window.pageYOffset || this.document.documentElement.scrollTop;
+        if (scrollt>lastScrollt) {
+            navbar.style.top="-75px";
+        }   
+        else{
+            navbar.style.top="0px";
+
+        }
+        lastScrollt=scrollt;
+        
+    })
+
     return (
         <div className='cont'>
             <BrowserRouter>
-            <nav className='navbar'>
+            <nav className='navbar' id='snav'>
             <NavHashLink smooth  exact to="#home"  className='logo'><img src="dlogo.png" height={"30px"} alt="logo" />  </NavHashLink>
     
 
