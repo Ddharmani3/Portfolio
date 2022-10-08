@@ -39,14 +39,14 @@
 .bannercontent{
   
   display: flex;
-  gap: 45vw;
+  justify-content: space-between;
 }
 
 
 .logoban{
 
   margin-top: 40vh;
-  
+  margin-right: 10vw;
   position: relative;
   
   transition: .5s;
