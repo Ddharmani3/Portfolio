@@ -25,9 +25,9 @@ function titlebanner() {
                 <div id='words'>
                   <TypeAnimation
                     sequence={[
-                      'Full Stack Developer', // Types 'One'
+                      'Full Stack Developer.', // Types 'One'
                       1000, // Waits 1s
-                      'Explorer', // Deletes 'One' and types 'Two'
+                      'Explorer.', // Deletes 'One' and types 'Two'
                       2000, // Waits 2s
                       'Coder.', // Types 'Three' without deleting 'Two'
                       2000, // Waits 2s
