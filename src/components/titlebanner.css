@@ -39,24 +39,20 @@
 .bannercontent{
   
   display: flex;
-  justify-content: space-between;
+  gap: 45vw;
 }
 
 
 .logoban{
 
-  margin-top: 7vh;
-  margin-right: 130px;
+  margin-top: 40vh;
+  
   position: relative;
-  right: 30px;
+  
   transition: .5s;
-  transform: rotate(20deg);
 }
 .coder3{
-  position: relative;
-  left: 320px;
-  top: 10px;
-  rotate: -20deg;
+ 
 }
 
 

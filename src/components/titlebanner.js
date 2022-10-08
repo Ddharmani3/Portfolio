@@ -27,7 +27,7 @@ function titlebanner() {
     </div>
        <div className="logoban">
         <img className='coder3' src="new3d.png"width={"400px"} alt="3dmodel" />
-         {/* <Dlogo width="350px" view="0 0 235 309"/> */}
+         
          
        </div>
          </div>
