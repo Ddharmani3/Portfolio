@@ -57,6 +57,7 @@
 
 .tcont{
   margin-top: 10vh;
+  text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 50px;
 }
 
 .hi{
@@ -80,4 +81,5 @@
   position: relative;
   top: 40px;
   left: 60px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 43px;
 }
