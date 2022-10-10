@@ -41,13 +41,13 @@
   
   display: flex;
   /* justify-content: space-between; */
-  gap: 15vw;
+  gap: 20vw;
 }
 
 
 .logoban{
   width: 50vw;
-  margin-top: 5vh;
+  margin-top: 10vh;
   transition: .5s;
 }
 
