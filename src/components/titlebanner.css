@@ -84,11 +84,7 @@
 
 
 /* 3d art pos and animation */
-#3d1{
-  width: 7rem;
-  right: 26vw;
-  bottom: 13vh;
-}
+
 
 .ar3d{
   width: 3rem;
@@ -98,14 +94,21 @@
   animation-direction: alternate;
   animation-iteration-count: infinite;  */
 }
+#d31{
+  width: 7rem;
+  right: 26vw;
+  bottom: 13vh;
+}
 
-#3d2{
+#d32{
   right: 26vw;
   bottom: 35vh;
   
 }
-#3d3{
+#d33{
   right: 19vw;
   width: 9rem;
   bottom: 20vh;
 }
+#d34{}
+#d35{}

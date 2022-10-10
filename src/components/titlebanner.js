@@ -42,12 +42,12 @@ function titlebanner() {
 
           </div>
           <div className="logoban" >
-            <img className='coder3' src="3dcoder.png" width={"400px"} alt="3dmodel" />
-            <img className='3d1' id='3d1' src="3d1.png" alt="3dmodel" />
-            <img className='3d2' id='3d2' src="3d2.png" alt="3dmodel" />
-            <img className='3d3' id='3d3' src="3d3.png" alt="3dmodel" />
-            <img className='3d4' id='3d4' src="3d4.png" alt="3dmodel" />
-            <img className='3d5' id='3d5' src="3d5.png" alt="3dmodel" />
+            <img className='coder3' src="3dcoder.png" alt="3dmodel" />
+            <img className='ar3d' id='d31' src="3d1.png" alt="3dmodel" />
+            <img className='ar3d' id='d32' src="3d2.png" alt="3dmodel" />
+            <img className='ar3d' id='d33' src="3d3.png" alt="3dmodel" />
+            <img className='ar3d' id='d34' src="3d4.png" alt="3dmodel" />
+            <img className='ar3d' id='d35' src="3d5.png" alt="3dmodel" />
 
 
           </div>
