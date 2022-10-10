@@ -106,14 +106,15 @@
 }
 
 #d32{
-  right: 30vw;
-  bottom: 35vh;
+  right: 28vw;
+  bottom: 40vh;
+  width: 4rem;
   
 }
 #d33{
-  right: 19vw;
+  left: 19vw;
   width: 9rem;
-  bottom: 20vh;
+  bottom: 45vh;
 }
 #d34{}
 #d35{}
