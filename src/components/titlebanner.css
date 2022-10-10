@@ -50,9 +50,7 @@
   margin-right: 7vw;
   transition: .5s;
 }
-.coder3{
- 
-}
+
 
 
 .tcont{
@@ -82,4 +80,32 @@
   top: 40px;
   left: 60px;
   text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 43px;
+}
+
+
+/* 3d art pos and animation */
+#3d1{
+  width: 7rem;
+  right: 26vw;
+  bottom: 13vh;
+}
+
+.ar3d{
+  width: 3rem;
+  position: relative;
+  /* animation: bounce 0.7s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;  */
+}
+
+#3d2{
+  right: 26vw;
+  bottom: 35vh;
+  
+}
+#3d3{
+  right: 19vw;
+  width: 9rem;
+  bottom: 20vh;
 }
