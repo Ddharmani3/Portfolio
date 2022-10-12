@@ -101,7 +101,6 @@
 .ar3d{
   width: 3rem;
   position: relative;
-  animation: float 5s ease-in-out infinite;
   /* animation: bounce 0.7s;
   animation-timing-function: ease-in;
   animation-direction: alternate;
@@ -115,24 +114,29 @@
   width: 7rem;
   right: 27.5vw;
   bottom: 17vh;
+  animation: float 5s ease-in-out infinite;
 }
 
 #d32{
   left: 9vw;
   bottom: 55vh;
   width: 4rem;
+  animation: float 3s ease-in-out infinite;
   
 }
 #d33{
   left: 15vw;
   width: 9rem;
   bottom: 45vh;
+  animation: float 7s ease-in-out infinite;
 }
 #d34{
-      left: 8vw;
-      bottom: 35vh;
-    }
+  left: 8vw;
+  bottom: 35vh;
+  animation: float 3s ease-in-out infinite;
+}
 #d35{
-      left: 8vw;
-      bottom: 32vh;
+  left: 8vw;
+  bottom: 32vh;
+  animation: float 4s ease-in-out infinite;
 }
