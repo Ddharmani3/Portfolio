@@ -3,7 +3,7 @@
   overflow: hidden;
   padding: 30px;
   
-  background-color: black;
+  background-color: #000a1f;
   width: 100%;
   height: 90vh;
 }
@@ -33,35 +33,30 @@
   display: flex;
   justify-content: center;
   padding-bottom: 5vh;
+  background-color: #000a1f;
 
 }
 
 .bannercontent{
   
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 20vw;
 }
 
 
 .logoban{
-
-  margin-top: 7vh;
-  margin-right: 130px;
-  position: relative;
-  right: 30px;
+  width: 50vw;
+  margin-top: 10vh;
   transition: .5s;
-  transform: rotate(20deg);
 }
-.coder3{
-  position: relative;
-  left: 320px;
-  top: 10px;
-  rotate: -20deg;
-}
+
 
 
 .tcont{
   margin-top: 10vh;
+  width: 50vw;
+  text-shadow: rgba(0, 0, 0, 0.2) 3px 3px 50px;
 }
 
 .hi{
@@ -85,4 +80,63 @@
   position: relative;
   top: 40px;
   left: 60px;
+  text-shadow: rgba(0, 0, 0, 0.2) 0px 0px 43px;
+}
+
+
+/* 3d art pos and animation */
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+
+.ar3d{
+  width: 3rem;
+  position: relative;
+  /* animation: bounce 0.7s;
+  animation-timing-function: ease-in;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;  */
+}
+
+.coder3{
+  width: 30vw;
+}
+#d31{
+  width: 7rem;
+  right: 27.5vw;
+  bottom: 17vh;
+  animation: float 5s ease-in-out infinite;
+}
+
+#d32{
+  left: 9vw;
+  bottom: 55vh;
+  width: 4rem;
+  animation: float 3s ease-in-out infinite;
+  
+}
+#d33{
+  left: 15vw;
+  width: 9rem;
+  bottom: 45vh;
+  animation: float 7s ease-in-out infinite;
+}
+#d34{
+  left: 8vw;
+  bottom: 35vh;
+  animation: float 3s ease-in-out infinite;
+}
+#d35{
+  left: 8vw;
+  bottom: 32vh;
+  animation: float 4s ease-in-out infinite;
 }
