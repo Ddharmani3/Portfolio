@@ -97,6 +97,17 @@
 		transform: translatey(0px);
 	}
 }
+@keyframes floatx {
+	0% {
+		transform: translatex(0px);
+	}
+	50% {
+		transform: translatex(-25px);
+	}
+	100% {
+		transform: translatex(0px);
+	}
+}
 
 .ar3d{
   width: 3rem;
@@ -114,21 +125,24 @@
   width: 7rem;
   right: 27.5vw;
   bottom: 17vh;
-  animation: float 5s ease-in-out infinite;
+  animation: float 2.5s ease-in-out infinite;
 }
 
 #d32{
   left: 9vw;
   bottom: 55vh;
   width: 4rem;
-  animation: float 3s ease-in-out infinite;
+  /* animation: float 3s ease-in-out infinite; */
+  transform: translate(-50%, -50%) rotateX(0deg);
+  animation: swirl-backflip 3s ease-in-out infinite;
+  animation-direction: reverse;
   
 }
 #d33{
-  left: 15vw;
+  left: 16vw;
   width: 9rem;
-  bottom: 45vh;
-  animation: float 7s ease-in-out infinite;
+  bottom: 48vh;
+  animation: floatx 3s ease-in-out infinite;
 }
 #d34{
   left: 8vw;
@@ -140,3 +154,62 @@
   bottom: 32vh;
   animation: float 4s ease-in-out infinite;
 }
+
+#rotator {
+  position: relative;
+  width: 5rem;
+  height: 5rem;
+  animation: rotations 5s linear infinite;
+  border-radius: 50%;
+  left: 21rem;
+  bottom: 20rem;
+}
+
+#rotator:before, #rotator:after {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 3rem;
+  width: 3rem;
+  background-size: contain;
+  background-repeat: no-repeat;   
+  animation: inherit;
+  animation-direction: reverse;
+}
+
+#rotator:before {
+  background-image: url("/public/3d5.png");
+  top: -.25rem;
+  left: -.25rem;
+  
+}
+
+#rotator:after {
+  background-image: url("/public/3d4.png");
+  bottom: -.25rem;
+  right: -.25rem;
+}
+
+
+@keyframes rotations {
+  to { transform: rotate(360deg) }
+}
+
+@keyframes swirl-backflip {
+    0% {
+      transform: translate(-50%, -50%) rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    25% {
+      transform: translate(-50%, -50%) rotateX(180deg) rotateY(0deg) rotateZ(180deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotateX(180deg) rotateY(180deg) rotateZ(180deg);
+    }
+    75% {
+      transform: translate(-50%, -50%) rotateX(0deg) rotateY(180deg) rotateZ(360deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotateX(0deg) rotateY(0deg) rotateZ(360deg);
+    }
+  }
+  
